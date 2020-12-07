@@ -37,16 +37,16 @@ function Game(ship, scoreboard) {
 		fill(0);
 		noStroke();
 		textAlign(CENTER);
-		welcome_msg = "Bubble();";
+		welcome_msg = "WELCOME TO THE BUBBLE SHOOTING GAME;";
 		textSize(random(65, 68));
 		text(welcome_msg, width / 2, height / 2);
-		action_msg = "Click to start, click to play.";
+		action_msg = " CLICK TO START THE GAME, MOVE THE COURSOR TO MOVE";
 		textSize(25);
 		text(action_msg, width / 2, height / 4);
-		score_msg = "Your previous score was " + scoreBoard.score + ".";
+		score_msg = "YOUR PREVIOUS SCORE WAS " + scoreBoard.score + " WELL PLAYED.";
 		textSize(25);
 		text(score_msg, width / 2, height / 4 * 3);
-		credits_msg = "(c) 2016 - www.danielefilaretti.com";
+		credits_msg = " ANSHU(141) GIRISH(143) HRITIK(144)";
 		textSize(15);
 		text(credits_msg, width / 2, height / 4 * 3.75);
 	}
